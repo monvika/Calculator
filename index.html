@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="row">
+        <input
+          class="display"
+          type="text"
+          placeholder="0"
+          name="displayResult"
+          readonly="readonly"
+        />
+      </div>
+      <div class="row">
+        <button value="7" class="button number">7</button>
+        <button value="8" class="button number">8</button>
+        <button value="9" class="button number">9</button>
+        <button value="+" class="button operation">+</button>
+      </div>
+      <div class="row">
+        <button value="4" class="button number">4</button>
+        <button value="5" class="button number">5</button>
+        <button value="6" class="button number">6</button>
+        <button value="-" class="button operation">-</button>
+      </div>
+      <div class="row">
+        <button value="1" class="button number">1</button>
+        <button value="2" class="button number">2</button>
+        <button value="3" class="button number">3</button>
+        <button value="*" class="button operation">*</button>
+      </div>
+      <div class="row">
+        <button value="0" class="button number">0</button>
+        <button class="button" id="clear">C</button>
+        <button value="/" class="button operation">/</button>
+        <button value="=" class="button operation" id="result">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
